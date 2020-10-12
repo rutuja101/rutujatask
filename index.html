@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=1, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Task</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+  
+    <div class="nv">
+
+    <ul>
+        <li><a href="index.html"><img src="img/png/Logo@2x.png" class="v0"></a></li>
+        <li class="shift"><a href="index.html"><img src="img/png/icn_person@2x.png" class="pattern"></a></li>
+        <li class="shift"><a href="index.html"><img src="img/png/icn_search@2x.png" class="pattern1"></a></li>
+
+      </ul>
+          <h1>Search Any Email Address</h1>
+        <h4><span class="ycolor">Start Here</span> - Look up the owner's name, photos and online profiles. See what you find!</span></h4>
+        
+           <input id="textEmail" class="searchTerm left" placeholder="EMAIL">
+
+         <a href="result.html">  <button type="submit" class="searchButton" onclick="myFunction()">
+             GO!
+          </button></a>
+          <p id="demo1" class="bt"></p>
+
+
+        
+        <div class="row">
+          <p class="paragrapgh"><img src="img/png/lock@2x.png" class="size">Enter Any Email Address. They won't be notified.</p>
+
+        </div>
+
+     </div>
+     <div class="bgcolo">
+      <h1 class="colo">Reverse Any Email Lookup</h1>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+     </div>
+    </br>
+ 
+    <div class="boxb">
+      <div class="imagebox">
+        <div class="numberCircle">1</div>        
+        </div>
+        
+        
+        <div class="textbox">
+        
+         <b class="colos"> Lorem ipsum</b>
+         <p class="gn">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+        </div>
+        <div class="imagebox">
+          <div class="numberCircle">4</div>          
+          </div>
+          <div class="textbox">
+          
+           <b class="colos"> Lorem ipsum</b>
+           <p class="gn">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          </div>
+          <div class="imagebox">
+            <div class="numberCircle">2</div>        
+            </div>
+            
+            
+            <div class="textbox">
+            
+             <b class="colos"> Lorem ipsum</b>
+             <p class="gn">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            </div>
+            <div class="imagebox">
+              <div class="numberCircle">5</div>          
+              </div>
+              
+              
+              <div class="textbox">
+              
+               <b class="colos"> Lorem ipsum</b>
+               <p class="gn">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+              </div>
+              <div class="imagebox">
+                <div class="numberCircle">3</div>        
+                </div>
+                
+                
+                <div class="textbox">
+                
+                 <b class="colos"> Lorem ipsum</b>
+                 <p class="gn">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </p>
+                </div>
+                <div class="imagebox">
+                  <div class="numberCircle">6</div>          
+                  </div>
+                  
+                  
+                  <div class="textbox">
+                  
+                   <b class="colos"> Lorem ipsum</b>
+                   <p class="gn">
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+
+                  </div>
+      </div>
+      <div class="nvv">
+
+      
+           
+<div class="nvv1">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+<div class="nvv2">
+  Tearms | Privacy
+</div>
+            
+           
+    
+         </div>
+         
+         <script>
+          function myFunction() {
+              var email;
+      
+              email = document.getElementById("textEmail").value;
+      
+                  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+      
+                  if (reg.test(textEmail.value) == false) 
+                  {
+                  document.getElementById("demo1").style.color = "red";
+                      document.getElementById("demo1").innerHTML ="Please add a valid email address";
+                      alert('Invalid Email Address ->'+email);
+                      return false;
+                  } else{
+                  document.getElementById("demo1").window.location.href ="result.html";
+
+                  }
+      
+             return true;
+          }
+          </script>
+</body>
+
+
+</html>
+
+
